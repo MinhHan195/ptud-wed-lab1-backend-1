@@ -1,5 +1,3 @@
-const { mountpath } = require("../app");
-
 class ApiError extends Error {
     constructor(statusCode, message) {
         super();
@@ -8,4 +6,4 @@ class ApiError extends Error {
     }
 }
 
-module.exports = ApiErrorl;
+module.exports = ApiError;
